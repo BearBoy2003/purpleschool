@@ -8,7 +8,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: calc(1220px - 48px);
+  max-width: var(--layout-width);
   margin: 0 auto;
   padding: 40px 24px;
 }
@@ -35,10 +35,6 @@
 }
 
 @media (max-width: 960px) {
-  .header__logo {
-    max-width: 174px;
-  }
-
   .header__login {
     display: none;
   }
@@ -47,6 +43,19 @@
     display: block;
   }
 }
+
+@media (max-width: 640px) {
+  .header__wrapper {
+    padding: 30px 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header__logo {
+    max-width: 174px;
+  }
+}
+
 
 /* MENU */
 
