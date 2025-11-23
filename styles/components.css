@@ -4,13 +4,20 @@
   background-color: var(--color-bg-medium);
 }
 
+.section__wrapper {
+  max-width: var(--layout-width);
+  margin: 0 auto;
+  padding: 100px 24px;
+}
+
 /* BUTTON */
 
 .button {
+  display: inline-block;
   padding: 16px 32px;
   font-size: 18px;
-  font-weight: 400;
   line-height: 120%;
+  text-align: center;
   color: var(--color-text);
   cursor: pointer;
   background: none;
@@ -32,7 +39,7 @@
 }
 
 .button--ghost:hover {
-  background: var(--color-bg-medium);
+  background: var(--color-bg-light);
 }
 
 @media (max-width: 480px) {
@@ -60,4 +67,120 @@
 
 .social-icons__icon:hover {
   background-color: var(--color-bg-medium);
+}
+
+/* HEADLING */
+
+.headling {
+  margin-bottom: 32px;
+}
+
+.headling__top {
+  margin-bottom: 8px;
+  font-size: 18px;
+  line-height: 120%;
+  color: var(--color-secondary);
+}
+
+.headling__bottom {
+  margin: 0 0 32px 0;
+  font-size: 46px;
+  line-height: 120%;
+  color: var(--color-text);
+}
+
+@media (max-width: 860px) {
+  .headling__bottom {
+    font-size: 34px;
+  }
+}
+
+/* PARAGRAPH */
+
+.paragraph {
+  max-width: 787px;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--color-text);
+}
+
+.paragraph--32 {
+  margin-bottom: 32px;
+}
+
+/* CARD */
+
+.card {
+  background: var(--color-bg-medium);
+  border-radius: var(--border-10);
+}
+
+.card--32 {
+  padding: 32px;
+}
+
+/* POST-WRAPPER */
+
+.post__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+/* POST */
+
+.post {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.post__button a {
+  display: block;
+}
+
+.post__stats {
+  display: flex;
+  gap: 32px;
+}
+
+.post__stat {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 16px;
+  line-height: 120%;
+  color: var(--color-link-hover);
+}
+
+.post__content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.post__header {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 120%;
+  color: var(--color-text);
+}
+
+.post__description {
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--color-text);
+}
+
+@media (max-width: 860px) {
+  .post {
+    flex-direction: column;
+  }
+
+  .post__header {
+    font-size: 21px;
+  }
 }
