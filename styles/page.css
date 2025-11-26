@@ -37,6 +37,27 @@
   text-align: center;
 }
 
+.chip-wrapper {
+  display: flex;
+  overflow: scroll;
+  gap: 24px;
+  margin-right: -24px;
+  margin-bottom: 32px;
+  margin-left: -24px;
+  padding-left: 24px;
+  scrollbar-width: none;
+}
+
+.chip-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.courses-wrapper {
+  display: grid;
+  gap: 70px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
 @media (max-width: 1200px) {
   .hero {
     flex-direction: column;
