@@ -115,8 +115,20 @@
   border-radius: var(--border-10);
 }
 
+.card--light {
+  background: var(--color-bg-light);
+}
+
 .card--32 {
   padding: 32px;
+}
+
+.card--48x24 {
+  padding: 48px 24px;
+}
+
+.card--24x32 {
+  padding: 24px 32px;
 }
 
 /* POST-WRAPPER */
