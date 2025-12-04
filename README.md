@@ -1,4 +1,4 @@
-<h1 align="center">PurpleSchool landing</h1>
+<h1 align="center">PurpleSchool</h1>
 
 <p align="center">
   <a href="https://bearboy2003.github.io/purpleschool/"><img src="https://img.shields.io/badge/demo-live-success" alt="demo"></a>
@@ -8,8 +8,8 @@
 </p>
 
 <details>
-  <summary>📸 Снимок экрана всей страницы</summary>
+  <summary>📸 Screenshot</summary>
   <p align="center">
-    <img src="preview.png" width="750" alt="Preview">
+    <img src="preview.png" width="700" alt="Preview">
   </p>
 </details>
